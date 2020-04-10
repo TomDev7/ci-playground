@@ -1,5 +1,7 @@
 import main.py as main
 
+print("test")
+
 def testAddition():
 
     if (main.sumValues(1, 2) == 3):
@@ -15,5 +17,5 @@ def testMultiplication():
         return False
 
 
-print(testAddition())
-print(testMultiplication())
+print("addition: " + testAddition())
+print("multiplication: " + testMultiplication())
