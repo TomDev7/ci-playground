@@ -1,19 +1,16 @@
+import unittest
+
 print("test")
 
-def testAddition():
+class TestClass(unittest.TestCase):
 
-    if (1 + 2 == 3):
-        return True
-    else:
-        return False
+    def test_addition(self):
 
-def testMultiplication():
+        self.assertEqual(1 + 2 == 3)
 
-    if (2 * 7 == 6):
-        return True
-    else:
-        return False
+    def test_multiplication(self):
 
+        self.assertEqual(2 * 3 == 6)
 
-print("addition: " + str(testAddition()))
-print("multiplication: " + str(testMultiplication()))
+if __name__ == '__main__':
+    unittest.main()
