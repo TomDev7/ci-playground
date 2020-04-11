@@ -10,7 +10,7 @@ class TestClass(unittest.TestCase):
 
     def test_multiplication(self):
 
-        self.assertEqual(2 * 8 == 6)
+        self.assertEqual(2 * 3 == 6)
 
 if __name__ == '__main__':
     unittest.main()
