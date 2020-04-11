@@ -1,8 +1,9 @@
 import unittest
 
-print("test")
-
 class TestClass(unittest.TestCase):
+
+    def setUp(self):
+        print 'setting up tests'
 
     def test_addition(self):
 
@@ -11,6 +12,9 @@ class TestClass(unittest.TestCase):
     def test_multiplication(self):
 
         self.assertEqual(2 * 3 == 6)
+
+    def tearDown(self):
+        print 'tearing down tests'
 
 if __name__ == '__main__':
     unittest.main()
