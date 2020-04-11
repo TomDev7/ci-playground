@@ -17,5 +17,5 @@ def testMultiplication():
         return False
 
 
-print("addition: " + testAddition())
-print("multiplication: " + testMultiplication())
+print("addition: " + str(testAddition()))
+print("multiplication: " + str(testMultiplication()))
