@@ -6,4 +6,4 @@ python:
 #  - pip install unittest
 
 script:
-  - python -m unittest test.py
+  - python -m unittest
