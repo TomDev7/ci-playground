@@ -7,11 +7,11 @@ class TestClass(unittest.TestCase):
 
     def test_addition(self):
 
-        self.assertEqual(1 + 2 == 3)
+        self.assertEqual(1 + 2, 3)
 
     def test_multiplication(self):
 
-        self.assertEqual(2 * 3 == 6)
+        self.assertEqual(2 * 3, 6)
 
     def tearDown(self):
         print ('tearing down tests')
