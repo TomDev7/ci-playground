@@ -9,7 +9,7 @@ def testAddition():
 
 def testMultiplication():
 
-    if (2 * 3 == 6):
+    if (2 * 7 == 6):
         return True
     else:
         return False
