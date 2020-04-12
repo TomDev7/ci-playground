@@ -20,6 +20,11 @@ class TestClass(unittest.TestCase):
         print('divide')
         self.assertEqual(4 / 2, 2)
 
+    def test_substraction(self):
+
+        print('substract')
+        self.assertEqual(4 - 1, 3)
+
     def tearDown(self):
         print ('tearing down tests')
 
