@@ -6,10 +6,10 @@ install:
   - pip install unittest2
 
 before_script:
-  - start.sh
+  - ./start.sh
 
 script:
   - python test.py
 
 after_script:
-  - end.sh
+  - ./end.sh
