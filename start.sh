@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo 'start script'
-mkdir alabamaX
+mkdir alabama
