@@ -15,8 +15,9 @@ class TestClass(unittest.TestCase):
 
     def test_division(self):
 
-        print('bravo')
+        print('charlie')
         self.assertEqual(4 / 2, 0)
+        print('passed?')
 
     def tearDown(self):
         print ('tearing down tests')
