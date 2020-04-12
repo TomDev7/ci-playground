@@ -7,14 +7,22 @@ class TestClass(unittest.TestCase):
 
     def test_addition(self):
 
+        print('add')
         self.assertEqual(1 + 2, 3)
 
     def test_multiplication(self):
 
+        print('multiply')
         self.assertEqual(2 * 3, 6)
+
+    def test_division(self):
+
+        print('divide')
+        self.assertEqual(4 / 2, 2)
 
     def test_substraction(self):
 
+        print('substract')
         self.assertEqual(4 - 1, 3)
 
     def tearDown(self):
