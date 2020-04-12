@@ -13,7 +13,7 @@ class TestClass(unittest.TestCase):
     def test_multiplication(self):
 
         print('multiply')
-        self.assertEqual(2 * 3, 8)
+        self.assertEqual(2 * 3, 6)
 
     def test_division(self):
 
