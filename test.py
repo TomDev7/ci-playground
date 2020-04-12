@@ -13,6 +13,11 @@ class TestClass(unittest.TestCase):
 
         self.assertEqual(2 * 3, 8)
 
+    def test_division(self):
+
+        print('bravo')
+        self.assertEqual(4 / 2, 0)
+
     def tearDown(self):
         print ('tearing down tests')
 
