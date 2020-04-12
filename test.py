@@ -15,7 +15,7 @@ class TestClass(unittest.TestCase):
 
     def test_substraction(self):
 
-        self.assertEqual(4 - 1, 2)
+        self.assertEqual(4 - 1, 3)
 
     def tearDown(self):
         print ('tearing down tests')
