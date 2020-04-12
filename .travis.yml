@@ -4,6 +4,8 @@ python:
 
 install:
   - pip install unittest2
+  - chmod u+x start.sh
+  - chmod u+x end.sh
 
 before_script:
   - ./start.sh
