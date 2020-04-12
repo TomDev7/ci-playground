@@ -11,7 +11,11 @@ class TestClass(unittest.TestCase):
 
     def test_multiplication(self):
 
-        self.assertEqual(2 * 3, 8)
+        self.assertEqual(2 * 3, 6)
+
+    def test_substraction(self):
+
+        self.assertEqual(4 - 1, 3)
 
     def tearDown(self):
         print ('tearing down tests')
