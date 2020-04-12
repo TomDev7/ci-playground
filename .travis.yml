@@ -8,7 +8,7 @@ install:
   - chmod u+x end.sh
 
 before_script:
-  - ./start.sh
+  - set -o errexit; source ./start.sh
 
 script:
   - python test.py

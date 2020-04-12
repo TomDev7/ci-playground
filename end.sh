@@ -1,5 +1,5 @@
 #!/bin/sh
 
 echo 'end script'
-cd alabamaQ
+cd alabama
 mkdir iowa
